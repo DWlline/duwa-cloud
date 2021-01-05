@@ -21,8 +21,8 @@ spring:
       server:
         git:
           uri: https://github.com/DWlline/duwa-config.git
-          username: 1393949338@qq.com
-          password: duwang1009
+          username: 
+          password: 
           default-label: master
           search-paths: config/dev
           force-pull: true
