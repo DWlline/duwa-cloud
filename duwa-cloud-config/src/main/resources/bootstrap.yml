@@ -3,8 +3,6 @@ server:
 spring:
   application:
     name: duwa-cloud-config
-  profiles:
-    active: git
   cloud:
     consul:
       host: 172.16.1.105
@@ -22,8 +20,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/DWlline/config.git
+          uri: https://github.com/DWlline/duwa-config.git
           username: 1393949338@qq.com
           password: duwang1009
           default-label: master
-
+          search-paths: config/dev
+          force-pull: true
