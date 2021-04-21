@@ -1,0 +1,5 @@
+server:
+  port: 34000
+spring:
+  aplacation:
+    name: duwa-cloud-monitor
