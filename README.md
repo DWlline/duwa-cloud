@@ -14,25 +14,28 @@ duwa-cloud-config | config-server | ÅäÖÃÖĞĞÄ | »ùÓÚSpring Cloud¹¹½¨Í³Ò»ÅäÖÃ·şÎñ£
 duwa-cloud-gateway | gateway | Íø¹Ø·şÎñ | »ùÓÚgateway¹¹½¨·şÎñÍø¹Ø£¬²¢¶Ô·şÎñ½øĞĞ¸ºÔØ£¬Ç°Ö»ÊµÏÖ¾²Ì¬Â·ÓÉ
 duwa-cloud-provider | provider | ·şÎñÌá¹©Õß | Ìá¹©·şÎñ
 duwa-cloud-consumer | consumer | ·şÎñµ÷ÓÃÕß | ·şÎñµ÷ÓÃ
+duwa-cloud-auth | auth | ÈÏÖ¤·şÎñ | »ùÓÚSpringSecurity½øĞĞ°²È«ÈÏÖ¤£¬²ÉÓÃOAuth2.0ÈÏÖ¤ÌåÏµ£¬¶Ô¿Í»§¶Ë¡¢ÓÃ»§½øĞĞÈÏÖ¤¼°ÊÚÈ¨£¬Ö§³ÖÕËºÅÃÜÂëµÇÂ¼£¬¶ÌĞÅÑéÖ¤ÂëµÇÂ¼
+duwa-cloud-monitor | monitor | ·şÎñ¼à¿Ø | »ùÓÚSpring Boot Admin¼¯³ÉTurbine,Hystrix£¬¶ÔÓ¦ÓÃ×´Ì¬½øĞĞ¼à¿Ø£¬¶Ô·şÎñµ÷ÓÃ½øĞĞ×·×ÙºÍ¶ÔÈÛ¶Ï½øĞĞ¼à²â
 
 ##¿ìËÙÆô¶¯
 
 ### ÏÂÔØ´úÂë
-```jshelllanguage
+```
  git clone https://github.com/DWlline/duwa-cloud.git
 ```
 
 ### Æô¶¯·şÎñ
 Æô¶¯Ë³ĞòÈçÏÂ£º
 ```
- config 
+ config
+ auth-service
  provider 
  consumer 
  gateway
+ monitor
 ```
 ### ·ÃÎÊ
-```js
-
+```
 http://localhost:32000/ ·şÎñÍø¹Ø£¬ÒÑ¾­¾ÛºÏÁËËùÓĞ·şÎñµÄSwagger
 http://consul-ip:8500/ ×¢²áÖĞĞÄ£¬¿ÉÒÔ²é¿´·şÎñ×¢²áÇé¿ö
 ```
